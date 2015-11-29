@@ -1,8 +1,9 @@
-var app             =       express();
 var request         =       require('request');
-var upload          =       multer({ dest: './uploads/'});
 var express         =       require("express");
 var multer          =       require('multer');
+var app             =       express();
+var upload          =       multer({ dest: './uploads/'});
+var port = process.env.PORT || 8080;
 
 app.use(express.static('uploads'));
 
@@ -19,9 +20,6 @@ app.use(multer({ dest: './uploads/',
     }
 }));
 
-app.get('/',function(req,res){
-      res.sendFile(__dirname + "/index.html");
-});
 
 app.post('/api/photo',function(req,res){
     console.log('got photo');
@@ -33,6 +31,6 @@ app.post('/api/photo',function(req,res){
     });
 });
 
-app.listen(3000,function(){
-    console.log("Working on port 3000");
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
 });
