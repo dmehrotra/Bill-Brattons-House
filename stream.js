@@ -1,6 +1,4 @@
-var Tweeter         =       require('twitter');
-var Stream          =       require('node-tweet-stream')
-var Keys            =       require('./keys.js')();
+
 var client = new Tweeter({
   consumer_key: Keys.consumer_key,
   consumer_secret: Keys.consumer_secret,
