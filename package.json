@@ -1,0 +1,17 @@
+{
+  "name": "bratton-cam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "locus": "^1.2.0",
+    "node-tweet-stream": "^1.8.3",
+    "twitter": "^1.2.5",
+    "underscore": "^1.8.3"
+  }
+}
