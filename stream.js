@@ -23,7 +23,13 @@ stream.on('tweet', function (tweet) {
   client.post('statuses/update', {status: "@"+tweet.user.screen_name + " Sup"}, function(error, tweet, response){})
 })
 
+stream.on('error', function (err) {
+  console.log('Oh no')
+})
+
+console.log('running');
 stream.track('brttncm');
+stream.track('@dmehro');
 
 // Todo separate app and stream
 
