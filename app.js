@@ -55,7 +55,7 @@ app.listen(port, function() {
      
     stream.on('tweet', function (tweet) {
       console.log('tweet received', tweet)
-      client.post('statuses/update', {status: "@"+tweet.user.screen_name + " Sup"}, function(error, tweet, response){})
+      client.post('statuses/update', {status: "@"+tweet.user.screen_name + " Sup"+ tweet.id}, function(error, tweet, response){})
     })
 
     stream.on('error', function (err) {
