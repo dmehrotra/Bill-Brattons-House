@@ -2,7 +2,7 @@
   "name": "bratton-cam",
   "version": "1.0.0",
   "description": "",
-  "start":"nodemon app.js",
+  "start":"nodemon app.js stream.js",
   "main": "app.js",
   "author": "",
   "license": "ISC",
