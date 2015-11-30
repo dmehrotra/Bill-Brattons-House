@@ -14,7 +14,7 @@ app.use(express.static('uploads'));
 
 app.use(multer({ dest: './uploads/',
     rename: function (fieldname, filename) {
-        return filename+Date.now();
+        return filename;
     },
     onFileUploadStart: function (file) {
         console.log(file.originalname + ' is starting ...');
