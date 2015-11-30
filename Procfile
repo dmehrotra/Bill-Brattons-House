@@ -1,2 +1,1 @@
-web: nodemon app.js
-stream: nodemon stream.js
+web: nodemon app.js stream.js
