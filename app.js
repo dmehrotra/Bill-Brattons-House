@@ -32,7 +32,7 @@ app.post('/api/photo',function(req,res){
         if(err) {
             return res.end("Error uploading file.");
         }
-        res.redirect('/'+res.req.files.userPhoto.name)
+        res.redirect('/'+res.req.files.file.name)
     });
 });
 
