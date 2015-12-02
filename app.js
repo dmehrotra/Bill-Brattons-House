@@ -49,7 +49,7 @@ app.post('/api/photo',function(req,res){
             return res.end("Error uploading file.");
         }
         // this redirect is for testing
-        res.redirect('/'+res.req.files.file.name)
+       
     });
 });
 
