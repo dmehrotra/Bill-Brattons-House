@@ -1,0 +1,99 @@
+html{
+	background:url("/google.png") no-repeat center center;
+	background-size:cover;
+	font-family: 'Raleway', sans-serif;
+	-webkit-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+body{
+	margin:0px;
+}
+.red{
+	background: black;
+	color:red;
+}
+h1.title{
+	font-weight:200;
+	font-size:25px;
+	color:white;
+	text-align: center;
+	box-sizing: border-box;
+	margin-top:5px;
+	-webkit-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+	text-shadow: 1px 1px 0px black;
+}
+h1.title:hover{
+	text-shadow: 4px 0px 0px black;	
+}
+#nav {
+  width:100%;
+  height:50px;
+  position: fixed;
+  box-sizing: border-box;
+  padding: 5px;
+  background:url("/transp.png") no-repeat center center;
+  background-size:cover;
+
+}
+#menu{
+
+	width:100%;
+	text-align: center;
+}
+#menu ul{
+	
+	margin: 20px auto;
+	padding: 0;
+	 list-style-type: none; 
+}
+#menu ul li{
+	
+	display: inline;
+	margin:10px;
+	text-align: center;
+}
+#menu ul li:last-child{
+	margin:10px 0px;
+}
+#menu ul li a{
+	color:black;
+text-decoration: none;
+padding: .2em 1em;
+-webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+transition: all 0.3s ease-out;
+text-shadow: 2px 0px 0px white;
+
+}
+#menu ul li a:hover{
+    text-shadow: 5px 0px 0px white;
+}
+#menu ul li a.active{
+	color:white;
+	text-shadow: 1px 1px 0px black;
+
+}
+.content{
+	  width:72%;
+	  color:white;
+	  overflow-y: scroll;
+	  position: fixed;
+	  top: 15%;
+	  left: 50%;
+	  margin-left: -36%;
+	  box-sizing: border-box;
+	  padding: 10px;
+	  background:url("/transp.png") no-repeat center center;
+	  background-size:cover;
+	  -webkit-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+}
+
+.wrapper p{
+font-size:18px;
+	display:none;
+
+}
+.wrapper.show p{
+	display:block;
+}

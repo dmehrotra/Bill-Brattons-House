@@ -1,0 +1,89 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<div id ='nav'>
+		<h1 class='title'>Bratton Anxiety</h1>	
+		<div id="menu">
+			<ul>
+				<li><a id='what' class='active' href="#">what</a></li>
+			    <li><a id='research' href="#">research</a></li>
+			    <li><a id='documentation' href="#">documentation</a></li>
+			    <li><a id='thanks' href="#">thanks</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="content">
+		<!-- what -->
+		<div class="wrapper show what">
+			<p>
+				Bratton Anxiety is a protest against the expanding surveillance state. <span class='red'>Tweet @brattonAnxiety to send Commisioner Bratton a photograph of his own house in real-time. </span>
+			</p>
+			<p>
+				Though there has been little public debate as to the ethical boundaries of state and corporate information gathering, Bill Bratton continues to aggressively utilize new technology to surveil the citizens he has been appointed to protect. 
+			<p>
+				This type of surveillance implies the presumptive guilt of each citizen and results in a unique anxiety amongst those who are surveilled.  
+			</p>
+			<p>
+
+			</p>
+
+		</div>
+		<!--  research -->
+		<div class="wrapper research">
+			<p>
+				Bratton Anxiety is a protest against the expanding surveillance state. <span class='red'>Tweet @brattonAnxiety to send Commisioner Bratton a photograph of his own house in real-time. </span>
+			</p>
+			<p>
+				Though there has been little public debate as to the ethical boundaries of state and corporate information gathering, Bill Bratton continues to aggressively utilize new technology to surveil the citizens he has been appointed to protect. 
+			<p>
+				This type of surveillance implies the presumptive guilt of each citizen and results in a unique anxiety amongst those who are surveilled.  
+			</p>
+			<p>
+
+			</p>
+		</div>
+		<!--  documentation -->
+		<div class="wrapper documentation">
+			<p>
+				Bratton Anxiety is a protest against the expanding surveillance state. <span class='red'>Tweet @brattonAnxiety to send Commisioner Bratton a photograph of his own house in real-time. </span>
+			</p>
+			<p>
+				Though there has been little public debate as to the ethical boundaries of state and corporate information gathering, Bill Bratton continues to aggressively utilize new technology to surveil the citizens he has been appointed to protect. 
+			<p>
+				This type of surveillance implies the presumptive guilt of each citizen and results in a unique anxiety amongst those who are surveilled.  
+			</p>
+			<p>
+
+			</p>
+		</div>
+		<!-- thanks -->
+		<div class="wrapper thanks">
+			<p>
+				Bratton Anxiety is a protest against the expanding surveillance state. <span class='red'>Tweet @brattonAnxiety to send Commisioner Bratton a photograph of his own house in real-time. </span>
+			</p>
+
+			<p>
+
+			</p>
+		</div>
+	</div>	
+	<script>
+		$(document).ready(function(){
+			$('#menu ul li a').on('click',function(e){
+				var id = e.target.id;
+				$('#menu ul li a').removeClass('active');
+				$(e.target).addClass('active');
+				$('.wrapper').removeClass('show');
+				$("."+e.target.id).addClass('show');
+			
+			});
+		})
+	</script>
+</body>
+
+</html>

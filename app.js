@@ -40,7 +40,9 @@ app.use(multer({ dest: './uploads/',
 
     }
 }));
-// declare post route
+app.get('/',function(req,res){
+      res.sendFile(__dirname + "/views/index.html");
+});
 app.post('/api/photo',function(req,res){
     console.log('got photo');
     // upload file
@@ -81,8 +83,8 @@ app.listen(port, function() {
     })
 
     console.log('running');
-    stream.track('brttncm');
-    stream.track('@dmehro');
+    // stream.track('brttncm');
+    // stream.track('@dmehro');
 
 
 });
