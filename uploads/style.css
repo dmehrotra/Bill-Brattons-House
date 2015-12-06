@@ -14,11 +14,11 @@ body{
 }
 h1.title{
 	font-weight:200;
-	font-size:25px;
+	font-size:30px;
 	color:white;
 	text-align: center;
 	box-sizing: border-box;
-	margin-top:5px;
+	margin-bottom:10px;
 	-webkit-transition: all 0.3s ease-out; 
 	transition: all 0.3s ease-out;
 	text-shadow: 1px 1px 0px black;
@@ -30,9 +30,10 @@ h1.title:hover{
   width:100%;
   height:50px;
   position: fixed;
+  font-size:20px;
   box-sizing: border-box;
   padding: 5px;
-  background:url("/transp.png") no-repeat center center;
+  /*background:url("/transp.png") no-repeat center center;*/
   background-size:cover;
 
 }
@@ -43,23 +44,24 @@ h1.title:hover{
 }
 #menu ul{
 	
-	margin: 20px auto;
+	margin: 0px auto;
 	padding: 0;
 	 list-style-type: none; 
 }
 #menu ul li{
 	
 	display: inline;
-	margin:10px;
+	margin:0px 10px;
 	text-align: center;
 }
 #menu ul li:last-child{
-	margin:10px 0px;
+	margin:0px 0px;
 }
 #menu ul li a{
 	color:black;
 text-decoration: none;
 padding: .2em 1em;
+font-size:25px;
 -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
 transition: all 0.3s ease-out;
 text-shadow: 2px 0px 0px white;
@@ -76,9 +78,9 @@ text-shadow: 2px 0px 0px white;
 .content{
 	  width:72%;
 	  color:white;
-	  overflow-y: scroll;
+	 	
 	  position: fixed;
-	  top: 15%;
+	  top: 17%;
 	  left: 50%;
 	  margin-left: -36%;
 	  box-sizing: border-box;
@@ -87,13 +89,22 @@ text-shadow: 2px 0px 0px white;
 	  background-size:cover;
 	  -webkit-transition: all 0.3s ease-out;
 	  transition: all 0.3s ease-out;
-}
 
-.wrapper p{
-font-size:18px;
+}
+.wrapper a{
+	color:red;
+	background:black;
+	
+}
+.wrapper{
+	overflow-y: scroll;
+	height:500px;
+
 	display:none;
+	font-size:20px;
 
 }
-.wrapper.show p{
+
+.wrapper.show{
 	display:block;
 }
