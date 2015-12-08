@@ -23,7 +23,16 @@ var stream = new Stream({
     consumer_secret: Keys.consumer_secret,
     token: Keys.access_token_key,
     token_secret: Keys.access_token_secret
-})
+});
+var getPhoto = function(){
+  file_stats = fs.statSync('./uploads/photo.jpg');
+  file_size = file_stats["size"];
+  if (file_size > 104200){
+    return fs.readFileSync('./uploads/photo.jpg')
+  }else{
+    return fs.readFileSync('./uploads/google.png')
+  }
+} 
 // Make my uploads folder my public assets so that I can see the photos
 app.use(express.static('uploads'));
 // Upload destination for Multer
@@ -56,11 +65,16 @@ app.post('/api/photo',function(req,res){
 });
 
 app.listen(port, function() {
+    getPhoto();
     console.log('Our app is running on http://localhost:' + port);
     // When the stream gets a tweet grab the most recent photo and tweet it back at the user
     stream.on('tweet', function (tweet) {
       console.log('tweet received', tweet)
-      var data = require('fs').readFileSync('./uploads/photo.jpg');
+      
+      var data = getPhoto();
+      
+
+
       // Make post request on media endpoint. Pass file data as media parameter
       client.post('media/upload', {media: data}, function(error, media, response){
         console.log(error);
@@ -83,8 +97,8 @@ app.listen(port, function() {
     })
 
     console.log('running');
-    // stream.track('brttncm');
-    // stream.track('@dmehro');
 
-
+    stream.track('@dmehro');
 });
+
+
