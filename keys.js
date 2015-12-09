@@ -1,8 +1,8 @@
 module.exports = function() {
   return {
-    consumer_key: '7OihjkSub0TKrklzmaCIRnDCA',
-    consumer_secret: 'OboymMeXysdwhno2BnCWmn0HnrzvSooXAPh1sa4EmLdycVnlBI',
-    access_token_key: '4376912182-csIYJzCJ04OlNpOXHGKCdK5SBU4xbIK8uGolsls',
-    access_token_secret: '7eNYxhJvGiRwSBmdgMP8lT2Y2Yw353p3BEK0FrUcYdHqf'
+    consumer_key: 'r5jsCecxowCbCJXNPcuM8wfwL',
+    consumer_secret: 'Q5NZfUH7tc2a7cMi6ezOFSLeUW9dkeclgNxqvpDL2uXexDUlcb',
+    access_token_key: '	4376912182-OO1NHQnGRxk9QEtvPnPGmO42WEnbKDSFKlE4XUn',
+    access_token_secret: '	HiJoSLNUGkFy4rnJL5Fip0iE6sPcxZ6XjMaCrtCxc9CP5'
   };
 }
