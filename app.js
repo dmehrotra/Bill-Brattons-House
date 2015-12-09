@@ -10,17 +10,17 @@ var Stream          =       require('node-tweet-stream')
 var Keys            =       require('./keys.js')();
 var fs              =       require('fs');
 var tweets = [
-"SO lucky that the man inside me is on the DHS advisory council AND on the board of motorola.$$ #helikestowatch @CommissBratton",
- "MY man got nothing 2 hide, thats y he cool with me sending pix 2 u.  I bet the man inside u got tons 2 hide. @CommissBratton",
- "Last night my guy entered me thru da back door, watch out Google & Apple encryption #RealMenDontAsk @CommissBratton",
- "My man been thru alot dis year GLAD he give HIS strategic respons unit machine guns 2 deal w protestors @CommissBratton",
- "My man likes it when other people watch, he says its just providing 'situational awareness',but I know better ;) @CommissBratton",
- "all about control for my guy. I keep things clean cuz I dunno when hes coming home. #helike2watch @CommissBratton",
- "I wish PredPol would tell me when my little guy is going to get home. #helikestowatch @CommissBratton",
+"SO lucky that the man inside me is on the DHS advisory council AND on the board of motorola.$$ #helikestowatch @CommissBratton ",
+ "MY man got nothing 2 hide, thats y he cool with me sending pix 2 u.  I bet the man inside u got tons 2 hide. @CommissBratton ",
+ "Last night my guy entered me thru da back door, watch out Google & Apple encryption #RealMenDontAsk @CommissBratton ",
+ "My man been thru alot dis year GLAD he give HIS strategic respons unit machine guns 2 deal w protestors @CommissBratton ",
+ "My man likes it when other people watch, he says its just providing 'situational awareness',but I know better ;) @CommissBratton ",
+ "all about control for my guy. I keep things clean cuz I dunno when hes coming home. #helike2watch @CommissBratton ",
+ "I wish PredPol would tell me when my little guy is going to get home. #helikestowatch @CommissBratton ",
  "why u complaining...u a terrorist? #helikestowatch @CommissBratton",
- "sweet how much da man inside me luv #BlackLivesMatter Its like he always watching them #helike2watch @CommissBratton",
- "The man inside of me is so strong he doesn't need to care if it's legal. #RealMenDontAsk #helike2watch @CommissBratton",
- "#BlackLivesMatter and dats y my man is tracking every one of u thats involved. #RealMenDontAsk @CommissBratton"
+ "sweet how much da man inside me luv #BlackLivesMatter Its like he always watching them #helike2watch @CommissBratton ",
+ "The man inside of me is so strong he doesn't need to care if it's legal. #RealMenDontAsk #helike2watch @CommissBratton ",
+ "#BlackLivesMatter and dats y my man is tracking every one of u thats involved. #RealMenDontAsk @CommissBratton "
 ]
 // Got caught sending photos to u by the guy inside me, seems weird that he cares.
 // Twitter Keys
