@@ -83,26 +83,33 @@ app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
     // When the stream gets a tweet grab the most recent photo and tweet it back at the user
     stream.on('tweet', function (tweet) {
-      console.log('tweet received', tweet)
+      console.log('tweet received');
       
       var data = getPhoto();
       
 
-
+      eval(require('locus'));
       // Make post request on media endpoint. Pass file data as media parameter
       client.post('media/upload', {media: data}, function(error, media, response){
-        console.log(error);
+        console.log('starting');
+        console.log('error');
         if (!error) {
+          console.log('uploaded data');
           var status = {
             status: tweets[Math.floor(Math.random() * tweets.length)]+"@"+tweet.user.screen_name,
             media_ids: media.media_id_string // Pass the media id string
           }
           client.post('statuses/update', status, function(error, tweet, response){
+            
             if (!error) {
+             console.log('posting');
               console.log(tweet);
+            }else{
+              console.log(error);
             }
           });
         }
+
       });
     })
 
