@@ -14,7 +14,7 @@ var tweets = [
  "MY man got nothing 2 hide, thats y he cool with me sending pix 2 u.  I bet the man inside u got tons 2 hide. @CommissBratton",
  "Last night my guy entered me thru da back door, watch out Google & Apple encryption #RealMenDontAsk @CommissBratton",
  "My man been thru alot dis year GLAD he give HIS strategic respons unit machine guns 2 deal w protestors @CommissBratton",
- "My man likes it when other people watch, he says its just providing 'situational awareness', but I know better ;). #helikestowatch @CommissBratton",
+ "My man likes it when other people watch, he says its just providing 'situational awareness', but I know better ;). @CommissBratton",
  "all about control for my guy. I keep things clean cuz I dunno when hes coming home. #helike2watch @CommissBratton",
  "I wish PredPol would tell me when my little guy is going to get home. #helikestowatch @CommissBratton",
  "why u complaining...u a terrorist? #helikestowatch @CommissBratton",
