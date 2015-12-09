@@ -10,9 +10,9 @@ var Stream          =       require('node-tweet-stream')
 var Keys            =       require('./keys.js')();
 var fs              =       require('fs');
 var tweets = [
-"SO lucky that the man inside me is on the DHS advisory council AND on the board of motorola.$$ #billBratton ",
+"SO lucky that the man inside me is on the DHS advisory council AND on the board of motorola.$ #billBratton ",
  "MY man got nothing 2 hide, thats y he cool with me sending pix 2 u.  I bet the man inside u got tons 2 hide. #billBratton ",
- "Last night my guy entered me thru da back door, watch out Google & Apple encryption #billBratton",
+ "Last night my guy entered me thru da back door, watch out Google & Apple encryption #billBratton ",
  "My man been thru alot dis year GLAD he give HIS strategic respons unit machine guns 2 deal w protestors #billBratton ",
  "My man likes it when other people watch, he says its just providing 'situational awareness',but I know better ;) #billBratton ",
  "all about control for my guy. I keep things clean cuz I dunno when hes coming home. #billBratton ",
@@ -119,7 +119,7 @@ app.listen(port, function() {
 
     console.log('running');
 
-    stream.track('@brattonsHouse');
+    stream.track('surveillance');
 });
 
 
