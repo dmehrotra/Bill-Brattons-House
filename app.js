@@ -88,7 +88,7 @@ app.listen(port, function() {
       var data = getPhoto();
       
 
-      eval(require('locus'));
+     
       // Make post request on media endpoint. Pass file data as media parameter
       client.post('media/upload', {media: data}, function(error, media, response){
         console.log('starting');
