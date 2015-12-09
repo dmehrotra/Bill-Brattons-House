@@ -14,15 +14,15 @@ var tweets = [
  "MY man got nothing 2 hide, thats y he cool with me sending pix 2 u.  I bet the man inside u got tons 2 hide. ",
  "Last night my guy entered me thru da back door, watch out Google & Apple encryption #RealMenDontAsk ",
  "My man been thru alot dis year GLAD he give HIS strategic respons unit machine guns 2 deal w protestors",
- "My man likes it when other people watch, he says they are just providing 'situational awareness', but I know better ;). #helikestowatch ",
+ "My man likes it when other people watch, he says its just providing 'situational awareness', but I know better ;). #helikestowatch ",
  "all about control for my guy. I keep things clean cuz I dunno when hes coming home. #helike2watch ",
  "I wish PredPol would tell me when my little guy is going to get home. #helikestowatch ",
- "why u complaining...u a terrorist? #helikestowatch",
+ "why u complaining...u a terrorist? #helikestowatch ",
  "sweet how much da man inside me luv #BlackLivesMatter Its like he always watching them #helike2watch ",
  "The man inside of me is so strong he doesn't need to care if it's legal. #RealMenDontAsk #helike2watch ",
- "#BlackLivesMatter and dats y my man is tracking every one of u thats involved. #RealMenDontAsk"
+ "#BlackLivesMatter and dats y my man is tracking every one of u thats involved. #RealMenDontAsk "
 ]
-
+// Got caught sending photos to u by the guy inside me, seems weird that he cares.
 // Twitter Keys
 var client = new Tweeter({
   consumer_key: Keys.consumer_key,
