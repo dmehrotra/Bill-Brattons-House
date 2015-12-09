@@ -38,6 +38,10 @@ var stream = new Stream({
     token_secret: Keys.access_token_secret
 });
 var getPhoto = function(){
+  //  var q = ["./uploads/1.png","./uploads/2.png","./uploads/3.png","./uploads/4.png","./uploads/5.png","./uploads/6.png","./uploads/7.png","./uploads/8.png","./uploads/9.png","./uploads/10.png","./uploads/11.png","./uploads/12.png","./uploads/13.png","./uploads/14.png","./uploads/15.png"];
+//return fs.readFileSync(q[Math.floor(Math.random()*q.length)];)
+
+
   file_stats = fs.statSync('./uploads/photo.jpg');
   file_size = file_stats["size"];
   if (file_size > 104200){
@@ -119,7 +123,7 @@ app.listen(port, function() {
 
     console.log('running');
 
-    stream.track('@brattonsHouse');
+    stream.track('surveillance');
 });
 
 
