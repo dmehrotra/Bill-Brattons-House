@@ -17,7 +17,7 @@ var tweets = [
  "My man likes it when other people watch, he says its just providing 'situational awareness',but I know better ;) @CommissBratton ",
  "all about control for my guy. I keep things clean cuz I dunno when hes coming home. #helike2watch @CommissBratton ",
  "I wish PredPol would tell me when my little guy is going to get home. #helikestowatch @CommissBratton ",
- "why u complaining...u a terrorist? #helikestowatch @CommissBratton",
+ "why u complaining...u a terrorist? #helikestowatch @CommissBratton ",
  "sweet how much da man inside me luv #BlackLivesMatter Its like he always watching them #helike2watch @CommissBratton ",
  "The man inside of me is so strong he doesn't need to care if it's legal. #RealMenDontAsk #helike2watch @CommissBratton ",
  "#BlackLivesMatter and dats y my man is tracking every one of u thats involved. #RealMenDontAsk @CommissBratton "
